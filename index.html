@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Animation On Scroll</title>
+		<link href="./style.css" rel="stylesheet">
+	</head>
+	<body>
+		<section data-animate-scroll='{"duration": "1","scaleX": "0","scaleY": "0"}'>
+			<h1>Animation On Scroll</h1>
+		</section>
+		<section data-animate-scroll='{"x": "-100","y": "0","alpha": "0","duration": ".5"}'>
+			<h1>Animation On Scroll</h1>
+		</section>
+		<section data-animate-scroll='{"scaleX": "1.2","scaleY": "1.2","alpha": "0", "duration": ".5"}'>
+			<h1>Animation On Scroll</h1>
+		</section>
+		<section data-animate-scroll='{  
+      "scaleX": "0.45",  
+      "scaleY": "0.45",  
+      "x": "-300",  
+      "y": "-200",  
+      "alpha": "0",  
+      "duration": "2",
+      "rotation": "360",
+      "rotation": "45",
+      "rotation": "45"
+      }'>
+			<h1>Animation On Scroll</h1>
+		</section>
+		<section data-animate-scroll='{"x": "-200","rotationY":"-150","duration": "2.5"}'>
+			<h1>Animation On Scroll</h1>
+		</section>
+		<section data-animation-scroll='{"x": "-200","rotationY":"-150","duration": "2.5"}'>
+			<h1>Animation On Scroll</h1>
+		</section>
+	    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="./TweenMax.js"></script>
+    <script src="./ScrollToPlugin.js"></script>
+    <script src="./EaselPlugin.js"></script>
+    <script src="./animate-scroll.js"></script>
+
+    <script type="text/javascript">
+	    $(document).animateScroll();
+    </script>
+
+	</body>
+
+</html>
